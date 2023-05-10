@@ -12,6 +12,8 @@ public class LoginPageObjects {
 	public WebDriver driver;
 	
 	
+	//this will show only github
+	
 	By username=By.xpath("//input[@id='username']");
 	By password=By.xpath("//input[@id='password']");
 	By login=By.xpath("//input[@id='Login']");
